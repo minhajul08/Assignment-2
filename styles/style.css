@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #FFF;
+    font-family: 'Mulish', sans-serif;
+}
+/* Header -section start */
+.header{
+    margin-top: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding-left: 30px;
+    color:#424247;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.navbar-title{
+    color: #131318;
+    font-size: 30px;
+    font-weight: 800;
+}
+.travel{
+    color: #FF5400;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+/* header section end */
