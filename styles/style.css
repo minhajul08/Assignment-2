@@ -39,3 +39,15 @@
 }
 
 /* header section end */
+
+
+/* responsive */
+
+@media screen and (max-width:576px) {
+    .header{
+        text-align: center;
+    }
+    .navbar{
+       flex-direction: column
+    }
+}
