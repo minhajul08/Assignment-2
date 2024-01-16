@@ -271,7 +271,6 @@
     max-width: 1100px;
     margin: 30px auto;
     display: flex;
-    /* justify-content: space-around; */
     margin-top: 50px;
     margin-right: 50px;
     gap: 20px;
@@ -285,6 +284,7 @@
 .newsletter-img img{
     width: 550px;
     height: 320px;
+    position: absolute;
 }
 .newsletter-titel{
     color: #131318;
@@ -307,7 +307,15 @@
 }
 .newsletter .primary-btn{
     margin-top: 20px;
-    width: 80%;
+    width: 80%; 
+} 
+
+.newsletter-img .primary-btn{
+    width: 140%;
+    position: relative;
+    top: 190px;
+    left: 330px;
+    rotate: -20deg;
 }
 /* newsletter ends */
 
@@ -317,7 +325,7 @@
     .header{
         text-align: center;
     }
-    .navbar, .popular-container,.services-content{
+    .navbar, .popular-container,.services-content,.newsletter{
        flex-direction: column
     }
     .img-container{
@@ -398,5 +406,22 @@
 }
 .hotel-2,.hotel-3{
     margin-top: 10px;
+}
+.newsletter{
+    margin: 10px auto;
+    margin-left: 30px;
+}
+.newsletter-text{
+    padding: 10px;
+}
+.newsletter-img img{
+    width: 90%;
+}
+.newsletter-img .primary-btn{
+    width: 40%;
+    position: relative;
+    top: 200px;
+    left: 230px;
+    rotate: -30deg;
 }
 }
