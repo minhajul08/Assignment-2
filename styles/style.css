@@ -198,6 +198,62 @@
 } 
 /* destination section ends */
 
+
+/* why choose us section starts */
+
+.why-section{
+     padding-top: 40px;
+}
+.why-section-title{
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.why-section-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px; 
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.services-content{
+    width: 90%;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.hotel-1{
+    width: 46%;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 15px;
+}
+.hotel-2{
+    width: 46%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    height: 200px;
+    padding: 15px;
+}
+.hotel-3{
+    margin: 15px auto;
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    height: 200px;
+    padding: 15px;
+}
+/* why choose us section ends */
+
 /* responsive */
 
 @media screen and (max-width:576px) {
