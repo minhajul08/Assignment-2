@@ -252,6 +252,17 @@
     height: 200px;
     padding: 15px;
 }
+.hotel-title{
+    padding:15px 0px;
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+}
+.hotel-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400; 
+}
 /* why choose us section ends */
 
 /* responsive */
@@ -260,7 +271,7 @@
     .header{
         text-align: center;
     }
-    .navbar, .popular-container{
+    .navbar, .popular-container,.services-content{
        flex-direction: column
     }
     .img-container{
@@ -276,7 +287,7 @@
         text-align: center;
         padding: 20px 40px ;
     }
-    .header-title,.popular-title{
+    .header-title,.popular-title,.why-section{
         font-size: 30px;
     }
     .input{
@@ -328,9 +339,18 @@
         padding: 15px 0px;
 }
 .place-1,.place-2,.place-3{
-    padding: 0px 20px;
+    padding: 10px 20px;
 }
-.img-one{
+.img-one,.why-section{
     padding-top: 20px;
+}
+.hotel-1,.hotel-2{
+    width: 85%;
+}
+.hotel-3{
+    width: 80%;
+}
+.hotel-2,.hotel-3{
+    margin-top: 10px;
 }
 }
