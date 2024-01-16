@@ -265,6 +265,52 @@
 }
 /* why choose us section ends */
 
+/* newsletter starts */
+
+.newsletter{
+    max-width: 1100px;
+    margin: 30px auto;
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+.newsletter-text{
+    width: 400px;
+    height: 290px;
+    border: 1px solid #FF5400;
+    padding: 20px;
+}
+.newsletter-img img{
+    width: 550px;
+    height: 320px;
+}
+.newsletter-titel{
+    color: #131318;
+    font-weight: 800;
+}
+.newsletter-description{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.newsletter input{
+    border-radius: 8px;
+   background: rgba(19, 19, 24, 0.05);
+   width: 70%;
+   margin-top: 20px;
+   padding: 10px 15px;
+   border: 0;
+}
+.newsletter .primary-btn{
+    margin-top: 20px;
+    width: 80%;
+}
+/* newsletter ends */
+
 /* responsive */
 
 @media screen and (max-width:576px) {
